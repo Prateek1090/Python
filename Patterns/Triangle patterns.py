@@ -2,11 +2,12 @@
 12
 123
 1234
-'''n=int(input(":"))
+
+n=int(input(":"))
 for i in range(1,n+1):
     for j in range(1,i+1):
         print(j,end="")
-    print()'''
+    print()
 
 
 1
@@ -14,12 +15,12 @@ for i in range(1,n+1):
 345
 4567
 
-'''n=int(input(":"))
+n=int(input(":"))
 for i in range(1,n+1):
     for j in range(1,i+1):
         print(i,end="")
         i+=1
-    print()'''
+    print()
 
 1
 23
