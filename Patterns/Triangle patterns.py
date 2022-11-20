@@ -65,4 +65,23 @@ for i in range(1,n+1):
         y+=1
     print()
     x+=1
+
+
+1
+1 1
+2 0 2
+3 0 0 3
+
+n=int(input(":"))
+print("1")
+for i in range(1,n):
+    j=0
+    for j in range(0,i+1):
+        if j==0 or j==i:
+            print(i,end=" ")
+        else:
+            print("0",end=" ")
+        j+=1
+    print()
+    i+=1
 '''
